@@ -1,0 +1,108 @@
+#logo1 {
+  -webkit-animation: amin1 3s infinite 0s;
+  animation: amin1 3s infinite 0s;
+}
+#like1 {
+  -webkit-animation: anim1 3s infinite 0s;
+  animation: anim1 3s infinite 0s;
+}
+
+#logo2 {
+  -webkit-animation: anim2 3s infinite 0s;
+  animation: anim2 3s infinite 0s;
+}
+
+#heart {
+  -webkit-animation: amin2 3s infinite 0s;
+  animation: amin2 3s infinite 0s;
+}
+
+#like2 {
+  -webkit-animation: anim3 3s infinite 0s;
+  animation: anim3 3s infinite 0s;
+}
+
+@keyframes amin1 {
+  0% {
+    -webkit-transform: translateY(33%) translateX(5.5%);
+    transform: translateY(33%) translateX(5.5%);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: translateY(18.5%) translateX(0.5%);
+    transform: translateY(18.5%) translateX(0.5%);
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: translateY(0%) translateX(0%);
+    transform: translateY(0%) translateX(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes anim1 {
+  0% {
+    -webkit-transform: translateY(23%) translateX(-3%);
+    transform: translateY(23%) translateX(-3%);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: translateY(13%) translateX(0%);
+    transform: translateY(13%) translateX(0%);
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: translateY(0%) translateX(2%);
+    transform: translateY(0%) translateX(2%);
+    opacity: 1;
+  }
+}
+
+@keyframes amin2 {
+  0% {
+    -webkit-transform: translateY(14%) translateX(5%);
+    transform: translateY(14%) translateX(5%);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: translateY(0%) translateX(0%);
+    transform: translateY(0%) translateX(0%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0%) translateX(0%);
+    transform: translateY(0%) translateX(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes anim2 {
+  0% {
+    -webkit-transform: translateY(10%) translateX(-2.5%);
+    transform: translateY(10%) translateX(-2.5%);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: translateY(0%) translateX(0%);
+    transform: translateY(0%) translateX(0%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0%) translateX(0%);
+    transform: translateY(0%) translateX(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes anim3 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=social.css.map */

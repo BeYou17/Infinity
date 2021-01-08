@@ -1,0 +1,26 @@
+body {
+    background: skyblue;
+}
+
+.container {
+    width: 100%;
+    height: 80%;
+    color: red;
+}
+
+.circle {
+    border-radius: 50%;
+    margin-left: 10rem;
+    margin-top: -13rem;
+    border: 2px solid blue;
+    -webkit-box-shadow: 0.5px 0.5px 10px #0084ff;
+    box-shadow: 0.5px 0.5px 10px #0084ff;
+}
+
+.box {
+    width: 70%;
+    height: 50rem;;
+    border: 2px solid red;
+    margin-left: 38rem;
+    margin-bottom: 5rem;
+}
